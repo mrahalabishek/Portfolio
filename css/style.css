@@ -15,7 +15,7 @@
      position: fixed;
      width: 100%;
      padding: 15px 0;
-     background: #070f4e;
+     background: #0B0C10;
      font-family: 'Ubuntu','sans-serif';
  }
  .navbar .max-width{
@@ -27,7 +27,9 @@
      color: #fff;
      font-size: 35px;
      font-weight: 600;
- }
+     /* margin: auto 0 auto 20px; */
+ } 
+ 
  .navbar .menu li{
      list-style: none;
      display: inline-block;
@@ -37,6 +39,39 @@
      font-size: 18px;
      font-weight: 500;
      margin-left: 25px;
+     transition: color 0.3s ease;
      
  }
- 
+ .navbar .menu li a:hover{
+     color: #C5C6C7;
+ }
+ /* home section */
+ .home{
+     display: flex;
+     background: url(../images/i8.jpg);
+     background-repeat: no-repeat;
+     background-size: 1680px 800px;
+     height: 100vh;
+     color: #fff;
+     min-height: 500px;
+     font-family: 'Ubuntu','sans-serif';
+ }
+ .home .max-width{
+     margin: auto 0 auto 18px;
+ }
+ .home .home-content .text-1{
+     font-size: 27px;
+ }
+ .home .home-content .text-2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: -3px;
+ }
+.home .home-content .text-3{
+    font-size: 35px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: #C5C6C7;
+    font-weight: 500;
+}
