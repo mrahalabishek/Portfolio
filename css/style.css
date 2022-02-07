@@ -40,9 +40,18 @@
      transition: all 0.3s ease;
  }
 
+ .navbar .logo a span{
+     color: #C5C6C7;
+
+ }
+
  .navbar.sticky .logo a{
      color: #0B0C10;
      
+ }
+
+ .navbar.sticky .logo a span{
+    color: #0B0C10;
  }
 
  .navbar .menu li{
@@ -65,6 +74,15 @@
 
  .navbar.sticky .menu li a:hover{
     color: #0B0C10;
+}
+
+/*menu btn styling*/
+
+.menu-btn{
+    color: #0B0C10;
+    font-size: 23px;
+    cursor: pointer;
+    
 }
 
  /* home section */
