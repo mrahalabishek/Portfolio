@@ -6,51 +6,73 @@
      text-decoration: none;
  }
  .max-width{
-     max-width: 1500px;
+     max-width: 13 00px;
      padding: 0 80px;
      margin: auto;
  }
+
  /*nav bar styling*/
+
  .navbar{
      position: fixed;
      width: 100%;
      padding: 15px 0;
-     /* background: #0B0C10; */
      font-family: 'Ubuntu','sans-serif';
+     transition: all 0.3s ease;   
  }
+
+ .navbar.sticky{
+     padding: 15px 0;
+     background: #C5C6C7;
+ }
+
  .navbar .max-width{
      display: flex;
      align-items: center;
      justify-content: space-between;
  }
+
  .navbar .logo a{
      color: #fff;
      font-size: 35px;
      font-weight: 600;
      margin: auto 0 auto 20px;
- } 
- 
+     transition: all 0.3s ease;
+ }
+
+ .navbar.sticky .logo a{
+     color: #0B0C10;
+     
+ }
+
  .navbar .menu li{
      list-style: none;
      display: inline-block;
  }
+
  .navbar .menu li a{
      color: #fff;
      font-size: 18px;
      font-weight: 500;
      margin-left: 25px;
      transition: color 0.3s ease;
-     
  }
+
  .navbar .menu li a:hover{
      color: #C5C6C7;
+     
  }
+
+ .navbar.sticky .menu li a:hover{
+    color: #0B0C10;
+}
+
  /* home section */
  .home{
      display: flex;
      background: url(../images/i8.jpg);
      background-repeat: no-repeat;
-     background-size: 1680px 800px;
+     background-size: cover;
      height: 100vh;
      color: #fff;
      min-height: 500px;
@@ -63,15 +85,15 @@
      font-size: 27px;
  }
  .home .home-content .text-2{
-    font-size: 60px;
-    font-weight: 600;
-    margin-left: -3px;
+     font-size: 60px;
+     font-weight: 600;
+     margin-left: -3px;
  }
 .home .home-content .text-3{
-    font-size: 35px;
-    margin: 5px 0;
+     font-size: 35px;
+     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #C5C6C7;
-    font-weight: 500;
+     color: #C5C6C7;
+     font-weight: 500;
 }
