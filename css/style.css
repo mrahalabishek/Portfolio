@@ -102,6 +102,38 @@
     font-weight: 500;
 }
 
+
+/* about section styling */
+
+section{
+    padding: 100px 0;
+}
+.about{
+    font-family: 'Poppins',sans-serif;
+}
+.about .title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 324px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
 /* Responsive media query start */
 @media(max-width: 1104px){
     .home .max-width{
