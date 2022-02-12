@@ -168,7 +168,7 @@ section{
     font-weight: 600;
     margin-bottom: 10px;
 }
-.about .about-content .right span{
+.about .about-content .right p span{ 
     color: #8c8e91;
 }
 .about .about-content .right p{
