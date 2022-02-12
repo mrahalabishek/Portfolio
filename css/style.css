@@ -256,12 +256,24 @@ section{
     .home .home-content .text-3{
         font-size: 35px;
     }
-    .about .about-content .column{
-        width: 50%;
-    }
     .max-width{
         max-width: 800px;
     }
+    .about .about-content .column{
+        width: 100%;
+    }
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+
+    }
+    .about .about-content .right{
+        flex: 100%;
+
+    }
+
+    
 }
 
 @media(max-width: 690px){
