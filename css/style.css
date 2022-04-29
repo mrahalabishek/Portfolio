@@ -130,7 +130,7 @@ section{
     left: 50%;
     width: 180px;
     height: 4px;
-    background: #0B0C10;
+    background: white;
     transform: translateX(-50%);
 
 }
