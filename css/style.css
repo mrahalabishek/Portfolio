@@ -195,7 +195,7 @@ section{
     left: 0;
     width: 200%; /*Making the width double the size of the parent since we are going to be animation the transform: translateX() to the left. */
     height: 100%;
-    background: linear-gradient(115deg,#fff,#000);
+    background: linear-gradient(115deg,#fff,rgb(42, 41, 41));
     background-size: 50% 100%;
     border-radius: inherit;
 }
